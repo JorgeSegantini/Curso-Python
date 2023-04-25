@@ -6,7 +6,7 @@ al4 = input('Digite o nome do quarto aluno: ')
 
 nomes = [al1, al2, al3, al4]
 
-random.shuffle(nomes)
-
-print(f'a ordem que os alunos vao apresentar o trabalho é essa {nomes}')
+esc = random.choice(nomes)
+print(f'O alunop sorteado foi {esc} parabéns!')
 #
+
